@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1366px;
+    margin: 0px auto;
+    background: sandybrown;
+}
+    #header{
+        width: 1326px;
+        background: peru;
+        margin: 0px auto;
+        padding: 20px;
+        color: white;
+        text-align: center;
+
+    }
+    #nav{
+        width: 1366px;
+        background: darkslategrey;
+        margin: 0px auto;
+
+    }
+        #nav ul{
+            list-style: none;
+            
+        }
+            #nav ul li {
+                float: left;
+                width: 187.5px;
+                color: white;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                padding: 20px;
+                margin: 0px auto;
+            }
+            #nav ul li:hover{
+                background: lightsteelblue;
+                color: darkgreen;
+            }
+    #body{
+        background-color: antiquewhite;
+    }
+
+            #left{
+                width: 900px;
+                float: left;
+            }
+                .news{
+                    background: chocolate;
+                    padding: 10px;
+                    margin: 10px 10px;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                    .news h3{
+                        margin: 8px;
+                    }
+                .subnews{
+                    background: silver;
+                    margin: 0px 10px;
+                    padding: 10px;
+                    color: darkslategray;
+                    font-family:'Times New Roman', Times, serif;
+                    line-height: 25px;
+                }
+            #right{
+                width: 466px;
+                height: 300px;
+                float: left;
+            }
+                .subright{
+                    background: burlywood;
+                    text-align: center;
+                    margin: 10px 0px;
+                    padding: 15px;
+                }
+                .ways{
+                    padding: 10px;
+                    margin: 10px 10px;
+                    background: mediumvioletred;
+                    color: antiquewhite;
+                    text-align: center;
+                }
+                .comment h2{
+                    text-align: center;
+                }
+                input[type="text"]{
+                    width: 445px;
+                    height: 35px;
+                    margin: 10px 10px 5px 10px;
+                }
+                input[type="submit"]{
+                    width: 445px;
+                    height: 35px;
+                    margin: 0px 10px;
+                    background-color: tomato;
+                    color: white;
+                    font-size: 15px;
+                }
+
+    #footer{
+        background: peru;
+        width: 1305px;
+        height: 30px;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
